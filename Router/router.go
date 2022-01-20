@@ -10,6 +10,10 @@ import (
 
 var router = gin.Default()
 
+func init() {
+	fmt.Println("test init function")
+}
+
 func InitRouter() {
 	fmt.Println("router staring")
 	if true {
